@@ -43,5 +43,6 @@ class Property extends Model {
         .whereRaw(`${haversine} < ${distance}`)
     }
   }
+}
 
 module.exports = Property
